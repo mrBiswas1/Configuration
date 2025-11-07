@@ -202,3 +202,4 @@
 2025-11-06 16:55:47,627 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SpringXML\spring-XML\src\test\resources
 2025-11-06 16:57:20,813 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SpringXML\spring-XML\src\main\resources
 2025-11-06 16:57:20,815 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SpringXML\spring-XML\src\test\resources
+2025-11-07 02:12:38,428 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
