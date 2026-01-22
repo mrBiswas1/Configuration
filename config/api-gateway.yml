@@ -8,18 +8,19 @@ spring:
           enabled: true
           lower-case-service-id: true
       routes:
-        - id: payment-service
-          uri: lb://payment-service
-          predicates:
-            - Path=/api/makePayment
-          filters:
-            - StripPrefix=2
         - id: order-service
           uri: lb://order-service
           predicates:
             - Path=/api/placeOrder
           filters:
             - StripPrefix=1
+
+        - id: payment-service
+          uri: lb://payment-service
+          predicates:
+            - Path=/api/makePayment
+          filters:
+            - StripPrefix=1   # ✅ FIXED
 eureka:
   client:
     service-url:
