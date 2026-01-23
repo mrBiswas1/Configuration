@@ -13,14 +13,14 @@ spring:
         - id: order-service
           uri: lb://order-service
           predicates:
-            - Path=/api/order/**
+            - Path=/api/orders/**
           filters:
             - StripPrefix=2
 
         - id: payment-service
           uri: lb://payment-service
           predicates:
-            - Path=/api/payment/**
+            - Path=/api/payments/**
           filters:
             - StripPrefix=2
 
