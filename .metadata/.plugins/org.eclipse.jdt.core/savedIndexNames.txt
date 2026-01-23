@@ -1,4 +1,0 @@
-INDEX VERSION 1.134+D:\SpringXML\.metadata\.plugins\org.eclipse.jdt.core
-386100725.index
-1529735547.index
-1865797976.index
